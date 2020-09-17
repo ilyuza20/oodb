@@ -8,11 +8,12 @@ public class Book {
     private Publisher publisher;
     private Date publicationDate;
 
-    public Book(String name, Author author, Publisher publisher, Date publicationDate) {
+    public Book(String name, Author author, Publisher publisher, Date publicationDate, Library library) {
         this.name = name;
         this.author = author;
         this.publisher = publisher;
         this.publicationDate = publicationDate;
+        library.addBook(this);
     }
 
     public Book() {
