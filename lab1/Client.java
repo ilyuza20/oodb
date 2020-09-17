@@ -7,12 +7,13 @@ public class Client {
     private String address;
     private String phoneNumber;
 
-    public Client(String name, String surname, String lastName, String address, String phoneNumber) {
+    public Client(String name, String surname, String lastName, String address, String phoneNumber, Library library) {
         this.name = name;
         this.surname = surname;
         this.lastName = lastName;
         this.address = address;
         this.phoneNumber = phoneNumber;
+        library.addClient(this);
     }
 
     public Client() {
