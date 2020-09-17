@@ -10,13 +10,14 @@ public class Delivery {
     private Calendar returnDate;
     private boolean returned;
 
-    public Delivery(Book book, Client client) {
+    public Delivery(Book book, Client client, Library library) {
         this.book = book;
         this.client = client;
         this.deliveryDate = new GregorianCalendar();
         this.returnDate = deliveryDate;
         returnDate.add(deliveryDate.DAY_OF_MONTH, +7);
         this.returned = false;
+        library.addDelivery(this);
     }
 
     @Override
