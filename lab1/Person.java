@@ -14,6 +14,11 @@ public class Person {
         this.address = address;
         this.phoneNumber = phoneNumber;
     }
+    
+    public Person(string name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
 
     public Person() {
     }
