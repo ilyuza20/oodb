@@ -4,7 +4,7 @@ import lab1.Client;
 import lab1.Library;
 import javax.xml.bind.*;
 import java.io.File;
-import java.util.ArrayList;
+import java.util.List;
 
 public class XMLService {
 
