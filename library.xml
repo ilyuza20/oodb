@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library>
+    <libraryName>Knyzhnuy</libraryName>
+    <books>
+        <book>
+            <author>
+                <name>Лев</name>
+                <lastName>Толстой</lastName>
+            </author>
+            <name>Война и мир</name>
+        </book>
+    </books>
+    <cards>
+        <card>
+            <book>
+                <author>
+                    <name>Лев</name>
+                    <lastName>Толстой</lastName>
+                </author>
+                <name>Война и мир</name>
+            </book>
+            <client>
+                <name>Дмитрий</name>
+                <lastName>Глуховский</lastName>
+                <address>Moscow, Pushkin St., 41</address>
+                <phoneNumber>+79276453728</phoneNumber>
+            </client>
+            <deliveryDate>2020-11-04T22:02:01.265+03:00</deliveryDate>
+            <returnDate>2020-11-04T22:02:01.265+03:00</returnDate>
+            <returned>false</returned>
+        </card>
+    </cards>
+    <clients>
+        <client>
+            <name>Дмитрий</name>
+            <lastName>Глуховский</lastName>
+            <address>Moscow, Pushkin St., 41</address>
+            <phoneNumber>+79276453728</phoneNumber>
+        </client>
+        <client>
+            <name>Наталья</name>
+            <lastName>Скворцова</lastName>
+            <address>Moscow, Gagarin St., 11</address>
+            <phoneNumber>+71111111111</phoneNumber>
+        </client>
+    </clients>
+</library>
