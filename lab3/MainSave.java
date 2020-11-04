@@ -31,6 +31,8 @@ public class MainSave {
 
         // сохраняем объект в в XML документ
         XMLService.saveLibraryData(library);
+        
+        XMLService.findByName(clients, "Наталья");
     }
 
 }
