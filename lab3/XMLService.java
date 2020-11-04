@@ -42,5 +42,13 @@ public class XMLService {
         }
         return null;
     }
+    
+    public static void findByName(ArrayList<Client> clients, String name) {
+        for (Client client :
+                clients) {
+            if (client.getName().equals(name))
+                System.out.println(client);
+        }
+    }
 
 }
